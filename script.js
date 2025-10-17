@@ -15,9 +15,10 @@ function incrementCounter(){
     updatecounterDisplay();
 }
 
-function decrementCounter(){
-    countervalue--;
-    updatecounterDisplay();
+function decrementCounter(){}
+    if (countervalue > 0) {
+        countervalue--;
+        updatecounterDisplay();
 }
 
 function resetCounter(){
