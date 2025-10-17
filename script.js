@@ -15,11 +15,11 @@ function incrementCounter(){
     updatecounterDisplay();
 }
 
-function decrementCounter(){}
+function decrementCounter(){
     if (countervalue > 0) {
         countervalue--;
         updatecounterDisplay();
-}
+}}
 
 function resetCounter(){
     countervalue= 0;
